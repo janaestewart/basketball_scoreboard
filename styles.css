@@ -1,0 +1,87 @@
+/* Color Palette
+
+Font: 003049
+score font: F77F00
+border: D62828
+card back: FCBF49
+back: EAE2B7
+
+
+*/
+
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body{
+    background-color: #FCBF49;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 60px;
+    border: solid 1px #D62828;
+    border-radius: 25px;
+    padding: 2% 3%;
+    background-color: #003049;
+    box-shadow: 8px 8px #D62828;
+}
+
+.score, #timer {
+    font-family: "Cursed Timer ULil"
+}
+
+.timer, .home, .guest {
+    /* border: solid 1px #D62828; */
+    padding: 8px 40px;
+}
+
+.score-keep {
+    display: flex;
+    flex-direction: row;
+}
+
+.clockFont {
+    color: #F77F00;
+}
+
+.score{
+    display: block;
+    font-size: 80px;
+    padding-left: 40px;
+    background-color: #233d4d;
+}
+
+.timer{
+    font-size: 40px;
+}
+
+#timer {
+    background-color: #233d4d;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: transparent;
+    color: #EAE2B7;
+    padding: 6px 15px;
+    border: 1px solid #D62828;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+}

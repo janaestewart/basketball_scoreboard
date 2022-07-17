@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sports Score Keeper</title>
+</head>
+<body>
+    <div class="card-container">
+        <div class="timer">
+            <div id="timer" class="clockFont">15:00</div>
+            <button class="start" id="start">Start</button>
+            <button class="pause" id="pause">Pause</button>
+        </div>
+        <div class="score-keep">
+            <div class="home">
+                <h2 class="title">Home</h2>
+                <span class="score clockFont" id="homeScore">0</span>
+                <button class="home-addOne" id="home-addOne">+1</button>
+                <button class="home-addTwo" id="home-addTwo">+2</button>
+                <button class="home-addThree" id="home-addThree">+3</button>
+            </div>
+            <div class="guest">
+                <h2 class="title">Guests</h2>
+                <span class="score clockFont" id="guestScore">0</span>
+                <button class="guest-addOne" id="guest-addOne">+1</button>
+                <button class="guest-addTwo" id="guest-addTwo">+2</button>
+                <button class="guest-addThree" id="guest-addThree">+3</button>
+            </div>
+        </div>
+        <div class="reset">
+            <button class="reset" id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
